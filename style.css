@@ -1,13 +1,59 @@
 /* Definição Body */
 body{
     background-color: rgb(253, 251, 251);
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header{
+    text-align: center;
+    height: 100px;
+    background-color: green;
+    width: 100%;
 }
 
 #cabecalho{
     top: 0;
     position: fixed;
+    color: white;
 }
 
+/* Nav */
+nav a{
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav a:hover{
+    color: yellow;
+    font-size: 1.65em;
+}
+
+/* Main */
+main{
+    height: calc(100%-100px);
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    font-size: 1.15em;
+}
+
+/* Section / FOTO */
 #minha_foto{
     width: 200px;
+}
+
+/* Section/ Listas */
+#licoes_aprendidas, #licoes_a_aprender{
+    display: inline-block;
 }
