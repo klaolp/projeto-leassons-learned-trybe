@@ -59,6 +59,11 @@ a:hover{
     color: blue;
     font-size: 1.15em;
 }
+/* Tabela / Section */
+table tr td{
+    width: 400px;
+    padding-left: 50px;
+}
 
 /* Section / FOTO */
 #minha_foto{
