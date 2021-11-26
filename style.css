@@ -47,6 +47,8 @@ main{
     top: 100px;
     margin-top: 20px;
     z-index: 1;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 a{
@@ -70,8 +72,11 @@ a:hover{
 
 /* FOOTER */
 footer{
-    width: 100%;
-    position: abasolute;
-    float: flex;
-    background-color: indigo;
+    position: fixed;
+    bottom: 0;
+    margin-left: 5px;
+    z-index: 2;
+    font-size: 0.75em;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
