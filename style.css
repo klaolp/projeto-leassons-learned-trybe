@@ -3,6 +3,7 @@ body{
     background-color: rgb(253, 251, 251);
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Cabeçalho */
@@ -60,9 +61,16 @@ a:hover{
     font-size: 1.15em;
 }
 /* Tabela / Section */
+table{
+    text-align: center;
+} 
+
 table tr td{
     width: 400px;
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: solid 1px gray;
+    line-height: 20px;
 }
 
 /* Section / FOTO */
